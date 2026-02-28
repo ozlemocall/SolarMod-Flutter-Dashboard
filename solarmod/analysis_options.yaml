@@ -1,0 +1,25 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:solarmod/main.dart';
+
+void main() {
+  testWidgets('App starts and shows title', (WidgetTester tester) async {
+    await tester.pumpWidget(const SolarModApp());
+    expect(find.text('Güneş Paneli Kontrol'), findsOneWidget);
+  });
+
+  testWidgets('Battery level increases when Arttır button pressed', (WidgetTester tester) async {
+    await tester.pumpWidget(const SolarModApp());
+    expect(find.text('75%'), findsOneWidget);
+    await tester.tap(find.text('Arttır'));
+    await tester.pump();
+    expect(find.text('80%'), findsOneWidget);
+  });
+
+  testWidgets('Battery level decreases when Azalt button pressed', (WidgetTester tester) async {
+    await tester.pumpWidget(const SolarModApp());
+    expect(find.text('75%'), findsOneWidget);
+    await tester.tap(find.text('Azalt'));
+    await tester.pump();
+    expect(find.text('70%'), findsOneWidget);
+  });
+}
