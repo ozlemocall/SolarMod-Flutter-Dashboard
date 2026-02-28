@@ -4,7 +4,6 @@
 SolarMod, yenilenebilir enerji sistemlerini (güneş panelleri ve bataryalar) izlemek ve yönetmek için geliştirilmiş modern bir IoT mobil arayüz uygulamasıdır. 
 
 ## 📱 Uygulama Görünümü
-
 <p align="center">
   <img src="dashboard.png" width="30%" />
   <img src="dashboard1.png" width="30%" />
