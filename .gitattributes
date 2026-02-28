@@ -1,3 +1,4 @@
+# Hazır platform kodlarını dilde sayma (Linguist'e talimat)
 windows/* linguist-vendored
 linux/* linguist-vendored
 android/* linguist-vendored
