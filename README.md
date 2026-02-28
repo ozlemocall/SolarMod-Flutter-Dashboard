@@ -6,9 +6,9 @@ SolarMod, yenilenebilir enerji sistemlerini (güneş panelleri ve bataryalar) iz
 ## 📱 Uygulama Görünümü
 
 <p align="center">
-  <img dsh="dashboard.png" width="30%" />
-  <img dsh="dashboard1.png" width="30%" />
-  <img dsh="dashboard2.png" width="30%" />
+  <img src="dashboard.png" width="30%" />
+  <img src="dashboard1.png" width="30%" />
+  <img src="dashboard2.png" width="30%" />
 </p>
 
 ## 🚀 Öne Çıkan Özellikler
